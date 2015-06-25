@@ -1,2 +1,2 @@
-js
+//This is  JS file 
 
