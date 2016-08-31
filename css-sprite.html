@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>CSS Sprite Tool</title>
-    <link type="text/css" href="css/reset.css" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Free CSS tool for get image cordination for css sprite">
+    <meta name="keywords" content="CSS,SPRITE,TOOL,UTILITY">
+    <meta name="author" content="Ankur Loriya,ankur.loriya@gmail.com">
+    <meta name='owner' content='Ankur Loriya'>
+    <meta name='reply-to' content='ankur.loriya@gmail.com'>
+    <title>CSS Sprite Tool</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/css-sprite.css" />
+
+    <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+    <script type="text/javascript" src="js/css-sprite.js"></script>
 </head>
 
 <body>
-    
+    <div class="stage">
+        <div class="img unload" id="stage-img"></div>
+    </div>
+
+    <div class="toolBox">
+        <div class="left">load new image&nbsp;
+            <input type="file" onchange="loadImage(event);" />
+        </div>
+        <div class="right">get css</div>
+    </div>
 </body>
 
 </html>

@@ -1,2 +1,32 @@
-css
+/* 
+    Author : Ankur Loriya <ankur.loriya@gmail.com><about.me/ankurloriya>
+*/
 
+body {
+    font-family: arial, sans-serif;
+}
+
+div.left {
+    float: left;
+}
+
+div.right {
+    float: right;
+}
+
+div.stage {}
+
+div.stage .img {
+    height: 300px;
+    width: 300px;
+}
+
+div.toolBox {
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    background: green;
+    width: 98%;
+    padding: 15px 10px 0px 10px;
+    color: white;
+}
